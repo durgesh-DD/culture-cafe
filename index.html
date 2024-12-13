@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>culture cafe</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+  />
+  <link
+    rel="stylesheet"
+    href="../node_modules/bootstrap/dist/css/bootstrap.css"
+  />
+  <link rel="stylesheet" href="contact.html">
+  <link rel="stylesheet" href="about.html">
+  <link rel="stylesheet" href="franchise.html">
+  <link rel="stylesheet" href="location.html">
+  <link rel="stylesheet" href="menu.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&family=Teko:wght@300..700&family=Varela+Round&display=swap" rel="stylesheet">
+ <style>
+    body {
+      box-sizing: border-box;
+      padding: 0%;
+      margin: 0%;
+      height: 100%;
+    }
+    .carousel img {
+      height: 700px;
+    }
+    .navbar {
+      height: 100px;
+      width: 100%;
+      background-color: rgb(25, 20, 20);
+      display: flex;
+      float: left;
+      padding-left: 900px;
+    }
+    .navbar nav li {
+      display: inline-block;
+      text-align: center;
+      justify-content: center;
+      text-decoration: none;
+      align-items: center;
+      margin-left: 20px;
+    }
+    .navbar nav li a {
+      text-decoration: none;
+      color: antiquewhite;
+    }
+    .navbar li a:hover{
+        color: rgb(208, 142, 56);
+        font-size: larger;
+    }
+    .main {
+      height: 600px;
+      width: 100%;
+      background-color: white;
+    }
+    .main h5 h1 p {
+      font-family:"Oswald";
+      padding: 20px;
+      margin: 20px;
+    }
+.container-fluid{
+        padding: 100px;
+        padding-top: 200PX;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+}
+.container-fluid img{
+        height: 200px;
+        width: 300px;
+        margin-left:700px ;
+        display: flex;
+        margin-top: 100px;
+        
+}
+    .flex-container {
+  display: flex;
+  background-image: url(../asset/cafe/cafe0.jpg);
+  background-color: rgb(31, 30, 28);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.flex-container  div {
+ background-color: #4432168f;
+ color: bisque;
+
+  margin-left: 1100px;
+
+  
+}
+.menu{
+        height: 500px;
+        width: 100%;
+        background-color: white;
+}
+.conatainer-sm{
+        height: 300px;
+        width: 600px;
+}
+#element{
+color: rgb(138, 100, 50);
+background-color: antiquewhite;
+}
+
+.location{
+
+        height: 300px;
+        width: 100%;
+        background-color: rgb(255, 250, 238);
+}
+
+.from{
+        height: 500px;
+        width: 100%;
+        background-color: rgb(244, 238, 224);
+}
+.from h1  {
+        text-align: center;
+        padding-top: 20px;
+        font-family: "Teko", sans-serif;
+        color: rgb(192, 151, 99);
+}
+.from h5{
+        text-align: center;
+}
+
+.details{
+        
+       
+        text-align: center;
+}
+.details h5 a {
+        text-decoration: none;
+        color: rgb(78, 65, 47);
+        font-weight: "Varela Round", sans-serif;
+        font-size: 15px;
+}
+
+.details  a:hover{
+        color: rgb(167, 98, 9);
+        font-size: 20px;
+}
+.btn{
+        border: 5px solid rgb(173, 124, 40);
+        border-radius: 3px;
+       background-color: rgba(240, 248, 255, 0);
+        color: rgb(125, 95, 56);
+        width: 200px;
+        height: 50px;
+        font-size: larger;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 15px;
+}
+.btn:hover{
+        color: rgb(233, 204, 167);
+        background-color: white;
+        border: solid wheat;
+        
+}
+footer{
+        height: 200px;
+        width: 100%;
+        background-color: rgb(203, 202, 187);
+}
+.footer{
+        display: inline;
+        justify-content: center;
+        text-align: center;
+        height: 150px;
+        width: 300px;
+}
+.foot p{
+        margin-left: 570px;
+        margin-top: 10px;
+
+}
+.transition{
+        
+  width: 400px;
+  height: 200px;
+  background-image: url(../asset/cafe/t.jpg);
+  transition: width 2s, height 2s;
+  text-align: center;
+  float: right;
+  color: rgb(227, 195, 153);
+  
+
+}
+.transition h1{
+        font-family:"PT Sans Narrow", sans-serif ;
+}
+
+
+.transition:hover {
+  width: 600px;
+  height: 300px;
+}
+.about{
+        border: 5px solid rgb(173, 124, 40);
+        border-radius: 3px;
+       background-color: rgba(240, 248, 255, 0);
+        color: rgb(125, 95, 56);
+        width: 200px;
+        height: 50px;
+        font-size: larger;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.about:hover{
+        color: rgb(233, 204, 167);
+        background-color: white;
+        border: solid wheat;
+}
+
+
+.franchise h1{
+        font-size: 100px;
+        font-family:"Teko", sans-serif ;
+        color: white;
+        text-align: center;
+
+}
+.franchise p {
+       
+        font-size: 20px;
+        color: white;
+        text-align: center;
+
+}
+.franchise h4 {
+       
+       font-size: 20px;
+       color: rgb(232, 207, 179);
+       text-align: center;
+
+}
+.franchise button {
+       
+        border: 5px solid rgb(173, 124, 40);
+        border-radius: 3px;
+       background-color: rgba(237, 217, 185, 0.638);
+        color: rgba(125, 95, 56, 0.778);
+        width: 200px;
+        height: 50px;
+        font-size: larger;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-left: 110px;
+
+}
+
+.franchise button:hover{
+        color: rgb(233, 204, 167);
+        background-color: rgba(251, 224, 174, 0.555);
+        border: solid wheat;
+}
+ .contact input[type=text], select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ .contact input[type=submit] {
+  width: 100px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ .contact  input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ .contact div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.contact{
+        border: 2px solid black;
+        width: 1000px;
+        display: contents;
+        align-items: center;
+        margin-left: 500px;
+        margin-top: 200px;
+}
+hr{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        margin-left: 660px;
+        color: rgb(47, 29, 7);
+        height: 10px;
+        
+}
+.location{
+        
+        text-align: center;
+        padding-top: 20px;
+        font-family: "Teko", sans-serif;
+        color: rgb(192, 151, 99);
+}
+
+ .container{
+        height: 300px;
+        width: 900px;
+        margin-top: 20px;
+       
+ }
+ .container img{
+        height: 300px;
+ }
+ .menu .btn{
+        border: 5px solid rgb(102, 177, 189);
+        border-radius: 3px;
+       background-color: white;
+        color: rgb(111, 202, 227);
+        width: 200px;
+        height: 50px;
+        font-size: larger;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        align-items: center;
+       
+}
+   .btn:hover{
+        color: rgb(43, 114, 140);
+        background-color: white;
+        border: solid rgb(179, 224, 245);
+}
+.menudiv{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+}
+.menu h1{
+        text-align: center;
+      
+        text-align: center;
+        padding-top: 20px;
+        font-family: "Teko", sans-serif;
+        color: rgb(192, 151, 99);
+
+
+}
+.carousel-caption d-none d-md-block  h1{
+           text-align: center;
+           padding-top: 40px ;
+           font-size: 40;
+
+}     
+  </style>
+  <body>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img  src="../asset/cafe/cafe.jpg"  class="d-block w-100" alt="..." />
+         
+          <div class="carousel-caption d-none d-md-block">
+            <h1>culture</h1>
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../asset/cafe/cafe1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="../asset/cafe/cafe4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About </a></li>
+          <li><a href="franchise.html">Franchise</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+ <div class="container-fluid">
+        <div class="transition">
+          <h1>Culture Cafe</h1>
+          <p>Our mantra, “Unculture Yourself”, a message we unravel with every new revolution and concept. We dare to help our customers encounter a new experience, every time they visit us.
+
+          </p>
+        </div> 
+        
+        <h1>Enjoy the best <span id="element"></span>
+        </h1> 
+        <h5>
+          Awarded as Emerging Cafe Chain Of The Year by Franchise <br>India, Coffee
+          Culture is a thriving success with over <br>28 outlets across the country. 
+
+        </h5>
+        <p>
+          We are focused on giving a satisfactory user experience and creating <br>
+          spaces which connect with the local culture of any location we <br>
+          establish at. Fresh & superior quality ingredients are used to create <br>
+          innovative dishes and beverages that taste & look distinctive andbr <br>
+          incite fascination. From the lighting to the curated music, from <br>
+          free-walk spaces to the seating, we formulate an aesthetic as a whole <br>
+          so the final picture at the end is nothing short of marvelous! <br>
+        </p>
+        <button class="about">know more..</button>
+      
+       
+ </div>
+
+    </div>
+    </div>
+    <div class="flex-container">
+        <div class="franchise">
+                <h1>franchise</h1>
+<p>If your ideology meets our vision, Coffee Culture Offers you to be an owner of your own Outlet.
+
+</p>
+<h4>Contact:
+        Mr. D D B 
+ </h4>
+ <button >know more..</button>
+      
+
+</div>
+          
+      </div>
+<div class="menu">
+        <H1> Our Menu</H1>
+        <hr>
+        <div class="menudiv">
+                <br>
+                <button class="btn">Order Online</button></div>
+        <div class="container">
+                <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../asset/cafe/menu1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../asset/cafe/menu2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../asset/cafe/menu3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+        </div>
+ </div>
+              
+</div>
+<div class="location">
+     <h1>Location</h1>
+     <h5>Masters of offering a complete experience that’s worth remembering!
+
+     </h5><hr>
+     <button class="btn">Know more..</button>
+</div>
+<DIV class="from">
+        <h1>CONTACT US
+               </h1> <hr><h5><p>We'd love to hear from you
+
+               </p></h5>
+
+
+         <div class="details">
+                <h4>Coffee Culture Corporate Office
+                </h4>
+                <p>Coffee Culture Corporate Office, Nr Surat City Gymkhana, Piplod,
+                        Surat. (Gujarat) INDIA.
+                        </p>
+                       <div> <h5>Phone:287514896</h5>
+                        <H5>Marketing: <a href="niujdwjfwioej">cgm@coffeeculture.co.in</a></H5>
+                        <H5>Hr: <a href="niujdwjfwioej"> hr@coffeeculture.co.in
+
+                        </a></H5>
+                        <H5>Franchise: <a href="niujdwjfwioej">franchise@coffeeculture.co.in
+
+                        </a></H5></div>
+                        <button class="btn" > Know more..</button>
+         </div>     
+     
+
+</DIV>
+      <footer>
+        <div class="footer">
+                <h1>CORPORATE OFFICE
+                </h1>
+                <p>Coffee Culture,
+                        10 Dimple Row House,
+                        Besides Surat City Gymkhana,
+                        Piplod, Surat – 395007, Gujarat, INDIA.</p>
+
+        </div >
+       
+       <div class="foot"> <p>&#169;Copyright 2019 ADN Hospitality. All Rights Reserved	</p></div>
+        
+      </footer>
+      
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Coffee', 'Burgers','Desserts', 'Mocktails'],
+          typeSpeed: 100,
+        });
+      </script>
+    
+  </body>
+</html>
